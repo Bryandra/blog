@@ -1,0 +1,53 @@
+/* PAGE CONTACT */
+section.page-contact form {
+    grid-column-start: 2;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 500px;
+}
+section.page-contact form fieldset {
+    margin-bottom: 20px;
+}
+section.page-contact form input, section form textarea {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+section.page-contact form button {
+    padding: 10px;
+    background: #575656;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+section.page-contact form button:hover {
+    background: #403f3f;
+}
+/* PAGE ABOUT */
+section.page-about article {
+    grid-column-start: 2;
+    margin-bottom: 120px;
+}
+section.page-about article h1 {
+    text-align: center;
+}
+section.page-about article p {
+    text-align: justify;
+}
+/* PAGE FORUM */
+section.page-forum {
+    grid-column-start: 1;
+}
+section.page-forum article {
+    margin: 15px;
+}
+section.page-forum article h2 {
+    text-align: center;
+}
+section.page-forum article p {
+    text-align: justify;
+}
