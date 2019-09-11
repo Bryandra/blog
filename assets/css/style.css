@@ -288,7 +288,7 @@ section nav.pagination ul li:hover a {
       margin: 0;
     }
 
-    section > h2 {
+    section > h2, section nav.pagination {
       grid-column-start: span 2;
     }
 
@@ -322,7 +322,7 @@ section nav.pagination ul li:hover a {
       margin: 0;
   }
 
-  section > h2 {
+  section > h2, section nav.pagination {
     grid-column-start: unset;
     width: 100%;
     margin-right: 0;
