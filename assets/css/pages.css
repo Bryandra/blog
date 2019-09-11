@@ -51,3 +51,60 @@ section.page-forum article h2 {
 section.page-forum article p {
     text-align: justify;
 }
+/* PAGE ARTICLE */
+section.page-article {
+    display: flex;
+    flex-direction: column;
+}
+section.page-article article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    min-height: none;
+    max-height: none;
+    min-width: none;
+    max-width: none;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 30px;
+}
+section.page-article article .article-images, section.page-article article .article-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+section.page-article article .article-images img {
+    width: 500px;
+    margin-bottom: 30px;
+}
+section.page-article article .article-content {
+    justify-content: center;
+    padding-left: 30px;
+}
+section.page-article article .article-content h2 {
+    text-align: center;
+}
+section.page-article article .article-content p {
+    text-align: justify;
+}
+
+  /* RESPONSIVE */
+
+  /* MAX WIDTH 1100 */
+
+  @media screen and (max-width: 1100px) {
+
+    /* PAGE ARTICLE */
+
+    section.page-article article {
+        flex-direction: column;
+    }
+
+    section.page-article article .article-content {
+        padding-left: 0;
+    }
+
+
+  }
