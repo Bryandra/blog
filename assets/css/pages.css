@@ -4,7 +4,7 @@ section.page-contact form {
     display: flex;
     flex-direction: column;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     width: 500px;
 }
 section.page-contact form fieldset {
@@ -30,9 +30,12 @@ section.page-contact form button:hover {
 /* PAGE ABOUT */
 section.page-about article {
     grid-column-start: 2;
-    margin-bottom: 120px;
+    height: auto;
+    min-height: none;
+    max-height: none;
+    margin-bottom: 30px;
 }
-section.page-about article h1 {
+section.page-about article h2 {
     text-align: center;
 }
 section.page-about article p {
@@ -108,3 +111,13 @@ section.page-article article .article-content p {
 
 
   }
+
+    /* MOBILE */
+
+@media screen and (max-width: 767px) {
+
+    section.page-contact form, section.page-about article {
+        grid-column-start: unset;
+    }
+
+}
