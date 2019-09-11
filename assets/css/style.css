@@ -74,6 +74,7 @@ body {
     color: white;
     text-decoration: none;
     text-align: center;
+    outline: 0;
   }
   /* CONTENT */
   section {

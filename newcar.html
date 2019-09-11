@@ -24,7 +24,7 @@
 
           <li><a href="index.html">Accueil</a></li>
           <li><a href="forum.html">Forum</a></li>
-          <li class="active"><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
           <li><a href="about.html">À propos</a></li>
 
         </ul>
@@ -35,28 +35,23 @@
 
   <section class="page-form">
 
-    <h2>Contactez nous</h2>
+    <h2>Nouveau véhicule Audi</h2>
 
-        <form action="#" method="POST">
+        <form action="#" method="POST" enctype="multipart/form-data">
                 
                 <fieldset>
-                    <legend><label for="first-name">Nom :</label></legend>
-                        <input type="text" name="name" id="first-name" placeholder="Nom" required />
+                    <legend><label for="modele">Modèle :</label></legend>
+                        <input type="text" name="modele" id="modele" placeholder="Entrez modèle" required />
                 </fieldset>
 
                 <fieldset>
-                    <legend><label for="last-name">Prénom :</label></legend>
-                        <input type="text" name="lastname" id="last-name" placeholder="Prenom" required />
+                    <legend><label for="images">Photos :</label></legend>
+                        <input type="file" name="images" id="images" multiple="multiple" required />
                 </fieldset>
 
                 <fieldset>
-                    <legend><label for="email">Email :</label></legend>
-                        <input type="email" name="email" id="email" placeholder="E-mail" required />
-                </fieldset>
-
-                <fieldset>
-                    <legend><label for="message">Message :</label></legend>
-                    <textarea name="message" id="message" placeholder="Message" required></textarea>
+                    <legend><label for="decription">Description :</label></legend>
+                    <textarea name="description" id="description" placeholder="Description" required></textarea>
                 </fieldset>
 
                 <button type="submit">Envoyer</button>

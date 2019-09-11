@@ -1,5 +1,5 @@
-/* PAGE CONTACT */
-section.page-contact form {
+/* PAGE FORM */
+section.page-form form {
     grid-column-start: 2;
     display: flex;
     flex-direction: column;
@@ -7,24 +7,24 @@ section.page-contact form {
     margin-bottom: 30px;
     width: 500px;
 }
-section.page-contact form fieldset {
+section.page-form form fieldset {
     margin-bottom: 20px;
 }
-section.page-contact form input, section form textarea {
+section.page-form form input, section form textarea {
     width: 100%;
     padding: 15px;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
-section.page-contact form button {
+section.page-form form button {
     padding: 10px;
     background: #575656;
     border: none;
     color: white;
     cursor: pointer;
 }
-section.page-contact form button:hover {
+section.page-form form button:hover {
     background: #403f3f;
 }
 /* PAGE ABOUT */
@@ -116,7 +116,7 @@ section.page-article article .article-content p {
 
 @media screen and (max-width: 767px) {
 
-    section.page-contact form, section.page-about article {
+    section.page-form form, section.page-about article {
         grid-column-start: unset;
     }
 
