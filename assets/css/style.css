@@ -28,7 +28,10 @@ body {
     align-items: center;
     margin-left: 215px;
   }
-  header .logo figcapture {
+  header .logo img {
+    width: 300px;
+  }
+  header .logo figcaption {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 7px;
     font-weight: bold;
@@ -112,7 +115,7 @@ body {
     min-height: 300px;
     max-height: 300px;
   }
-  section article figure figcapture {
+  section article figure figcaption {
     font-family: 'Oswald', sans-serif;
     background-color: white;
     color: black;
@@ -196,7 +199,7 @@ body {
       margin: 0;
     }
 
-    header .logo figcapture {
+    header .logo figcaption {
       display: none;
       margin-left: 0;
     }
@@ -219,7 +222,7 @@ body {
 
   @media screen and (max-width: 767px) {
 
-    header .logo figcapture {
+    header .logo figcaption {
       display: none;
       margin-left: 0;
     }
@@ -256,7 +259,7 @@ body {
       max-height: 250px;
   }
 
-  section article figure figcapture {
+  section article figure figcaption {
     height: auto;
     min-height: auto;
     max-height: none;
