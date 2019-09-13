@@ -110,6 +110,7 @@ body {
   }
   section article a {
     text-decoration: none;
+    outline: 0;
   }
   section article figure {
     display: flex;
