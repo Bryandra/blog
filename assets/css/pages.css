@@ -66,9 +66,9 @@ section.page-article article {
     width: auto;
     height: auto;
     /* min-height: none; */
-    /* max-height: none; */
+    max-height: none;
     /* min-width: none; */
-    /* max-width: none; */
+    max-width: none;
     font-family: 'Oswald', sans-serif;
     margin-top: 30px;
 }
