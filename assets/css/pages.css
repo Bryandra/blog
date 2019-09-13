@@ -76,6 +76,7 @@ section.page-article article .article-images, section.page-article article .arti
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 500px;
 }
 section.page-article article .article-images img {
@@ -83,7 +84,6 @@ section.page-article article .article-images img {
     margin-bottom: 30px;
 }
 section.page-article article .article-content {
-    justify-content: center;
     padding-left: 30px;
 }
 section.page-article article .article-content h2 {
