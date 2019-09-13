@@ -251,10 +251,10 @@ section nav.pagination ul li a {
   color: white;
   outline: 0;
 }
-section nav.pagination ul li:hover {
+section nav.pagination ul li.active, section nav.pagination ul li:hover {
   background-color: orange;
 }
-section nav.pagination ul li:hover a {
+section nav.pagination ul li.active a, section nav.pagination ul li:hover a {
   color: black;   
 }
   /* -------------------------------------------------------------- RESPONSIVE -------------------------------------------------------------- */
