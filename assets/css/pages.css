@@ -1,4 +1,4 @@
-/* PAGE FORM */
+/* ----------------------------------------------------------------- PAGE FORM ----------------------------------------------------------------- */
 section.page-form form {
     grid-column-start: 2;
     display: flex;
@@ -27,7 +27,7 @@ section.page-form form button {
 section.page-form form button:hover {
     background: #403f3f;
 }
-/* PAGE ABOUT */
+/* ----------------------------------------------------------------- PAGE ABOUT ----------------------------------------------------------------- */
 section.page-about article {
     grid-column-start: 2;
     height: auto;
@@ -41,7 +41,7 @@ section.page-about article h2 {
 section.page-about article p {
     text-align: justify;
 }
-/* PAGE FORUM */
+/* ----------------------------------------------------------------- PAGE FORUM ----------------------------------------------------------------- */
 section.page-forum {
     grid-column-start: 1;
 }
@@ -54,7 +54,7 @@ section.page-forum article h2 {
 section.page-forum article p {
     text-align: justify;
 }
-/* PAGE ARTICLE */
+/* ----------------------------------------------------------------- PAGE ARTICLE ----------------------------------------------------------------- */
 section.page-article {
     display: flex;
     flex-direction: column;
@@ -93,13 +93,13 @@ section.page-article article .article-content p {
     text-align: justify;
 }
 
-  /* RESPONSIVE */
+  /* ----------------------------------------------------------------- RESPONSIVE ----------------------------------------------------------------- */
 
-  /* MAX WIDTH 1100 */
+  /* ----------------------------------------------------------------- MAX WIDTH 1100 -------------------------------------------------------------- */
 
   @media screen and (max-width: 1100px) {
 
-    /* PAGE ARTICLE */
+    /* ----------------------------------------------------------------- PAGE ARTICLE -------------------------------------------------------------- */
 
     section.page-article article {
         flex-direction: column;
@@ -112,7 +112,7 @@ section.page-article article .article-content p {
 
   }
 
-    /* MOBILE */
+    /* ----------------------------------------------------------------- MOBILE ----------------------------------------------------------------- */
 
 @media screen and (max-width: 767px) {
 

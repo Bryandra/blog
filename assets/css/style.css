@@ -1,3 +1,4 @@
+/* ----------------------------------------------------------------- GENERAL ----------------------------------------------------------------- */
 body {
     display: flex;
     flex-direction: column;
@@ -9,7 +10,7 @@ body {
     -moz-box-shadow: inset 0px 0px 30px 0px rgba(0,0,0,0.5);
     box-shadow: inset 0px 0px 30px 0px rgba(0,0,0,0.5);
   }
-/* HEADER */
+/* ----------------------------------------------------------------- HEADER ----------------------------------------------------------------- */
   header {
     display: flex;
     flex-direction: row;
@@ -76,7 +77,7 @@ body {
     text-align: center;
     outline: 0;
   }
-  /* CONTENT */
+  /* ----------------------------------------------------------------- CONTENT ----------------------------------------------------------------- */
   section {
     flex-grow: 1;
     display: grid;
@@ -164,7 +165,7 @@ body {
     margin: 0;
     padding: 0;
   }
-  /* FOOTER */
+  /* ----------------------------------------------------------------- FOOTER ----------------------------------------------------------------- */
   footer {
     background-color: #2d2d2d;
     color: white;
@@ -222,7 +223,7 @@ body {
     font-size: 12px;
   }
 
-  /* PAGINATION */
+  /* ----------------------------------------------------------------- PAGINATION ----------------------------------------------------------------- */
 section nav.pagination {
   margin: 20px 0;
   overflow: hidden;
@@ -256,11 +257,13 @@ section nav.pagination ul li:hover {
 section nav.pagination ul li:hover a {
   color: black;   
 }
-  /* RESPONSIVE */
+  /* -------------------------------------------------------------- RESPONSIVE -------------------------------------------------------------- */
 
-  /* TABLET AND DESKTOP */
+  /* ----------------------------------------------------------- TABLET AND DESKTOP ----------------------------------------------------------- */
 
   @media screen and (max-width: 1560px) {
+
+    /* -------------------------------------------------------------- HEADER TABLET -------------------------------------------------------------- */
 
     header {
       flex-direction: column;
@@ -282,6 +285,8 @@ section nav.pagination ul li:hover a {
       margin-top: 15px;
     }
 
+    /* -------------------------------------------------------------- CONTENT TABLET -------------------------------------------------------------- */
+
     section {
       grid-template-columns: repeat(2, 1fr);
       padding: 0;
@@ -295,9 +300,11 @@ section nav.pagination ul li:hover a {
 
   }
 
-  /* MOBILE */
+  /* ----------------------------------------------------------------- MOBILE ----------------------------------------------------------------- */
 
   @media screen and (max-width: 767px) {
+
+    /* -------------------------------------------------------------- HEADER MOBILE -------------------------------------------------------------- */
 
     header .logo figcaption {
       display: none;
@@ -316,7 +323,9 @@ section nav.pagination ul li:hover a {
       bottom: 15px;
   }
 
-    section {
+  /* ------------------------------------------------------------- CONTENT MOBILE  ------------------------------------------------------------- */
+
+  section {
       grid-template-columns: repeat(1, 1fr);
       padding: 0;
       margin: 0;
@@ -329,7 +338,7 @@ section nav.pagination ul li:hover a {
     margin-left: 0;
   }
 
-    section article {
+  section article {
       width: 400px;
       max-width: 400px;
       height: 350px;
@@ -343,7 +352,7 @@ section nav.pagination ul li:hover a {
       max-height: 250px;
   }
 
-    section article figure .image img {
+  section article figure .image img {
       height: 250px;
       min-height: 250px;
       max-height: 250px;
