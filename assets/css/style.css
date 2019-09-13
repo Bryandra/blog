@@ -245,6 +245,9 @@ section nav.pagination ul li {
   color: black;
   background-color: black;
   border: 1px solid #a8a8a8;
+  transition: transform .2s;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
 }
 section nav.pagination ul li a {
   text-decoration: none;
@@ -254,6 +257,7 @@ section nav.pagination ul li a {
 }
 section nav.pagination ul li.active, section nav.pagination ul li:hover {
   background-color: orange;
+  transform: scale(0.9);
 }
 section nav.pagination ul li.active a, section nav.pagination ul li:hover a {
   color: black;   
