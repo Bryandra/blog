@@ -31,7 +31,7 @@ section.page-form form button:hover {
 section.page-about article {
     grid-column-start: 2;
     height: auto;
-    min-height: none;
+    /* min-height: none; */
     max-height: none;
     margin-bottom: 30px;
 }
@@ -65,10 +65,10 @@ section.page-article article {
     justify-content: center;
     width: auto;
     height: auto;
-    min-height: none;
-    max-height: none;
-    min-width: none;
-    max-width: none;
+    /* min-height: none; */
+    /* max-height: none; */
+    /* min-width: none; */
+    /* max-width: none; */
     font-family: 'Oswald', sans-serif;
     margin-top: 30px;
 }
